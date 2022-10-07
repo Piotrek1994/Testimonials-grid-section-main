@@ -12,67 +12,78 @@ body {
 	height: 100vh;
 	background-color: rgb(191, 191, 191);
 	font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .modal-conatiner {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
-    width: 1100px;
-    height: 600px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	column-gap: 30px;
+	row-gap: 30px;
+	width: 1100px;
+	height: 600px;
 }
 
-
-
 .modal {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 8px;
-    padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 8px;
+	padding: 30px;
 }
 
 .modal-one {
-    position: relative;
-    background-color: hsl(263, 55%, 52%);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    z-index: 0;
+	position: relative;
+	background-color: hsl(263, 55%, 52%);
+	grid-column-start: 1;
+	grid-column-end: 3;
+	z-index: 0;
 }
 
 .modal-one_background {
-    position: absolute;
-    top: 0;
-    right: 80px;
-    z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 80px;
+	z-index: -1;
 }
 
 .modal-two {
-    background-color: hsl(217, 19%, 35%);
+	background-color: hsl(217, 19%, 35%);
 }
 .modal-three {
-    background-color: hsl(0, 0%, 100%);
-    grid-column-start: 1;
-
+	background-color: hsl(0, 0%, 100%);
+	grid-column-start: 1;
 }
 .modal-four {
-    background-color:  hsl(219, 29%, 14%);
-    grid-column-start: 2;
-    grid-column-end: 4;
+	background-color: hsl(219, 29%, 14%);
+	grid-column-start: 2;
+	grid-column-end: 4;
 }
 .modal-five {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 4;
-    grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 5;
 }
 
 .modal-img {
-    width: 30px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.326);
+	width: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.326);
+}
+
+.modal-headline {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.modal-logo {
+    display: flex;
+}
+
+.name {
+	width: 40px;
+	height: 20px;
 }
