@@ -12,14 +12,16 @@ body {
 	height: 100vh;
 	background-color: white;
 	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 5px;
 }
 
 .modal-conatiner {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 10px 30px;
-    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px 2px;
+    width: 800px;
+    height: 600px;
 }
 
 
@@ -27,4 +29,31 @@ body {
 .modal {
     background-color: red;
     border: 1px solid black;
+}
+
+.modal-one {
+    background-color: rgb(49, 104, 58);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.modal-two {
+    background-color: blue;
+}
+.modal-three {
+    background-color: yellow;
+    grid-column-start: 1;
+
+}
+.modal-four {
+    background-color: rgb(180, 180, 180);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.modal-five {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
 }
