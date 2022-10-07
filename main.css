@@ -15,5 +15,16 @@ body {
 }
 
 .modal-conatiner {
-    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px 30px;
+    width: 1300px;
+}
+
+
+
+.modal {
+    background-color: red;
+    border: 1px solid black;
 }
