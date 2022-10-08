@@ -58,7 +58,7 @@ body {
 .modal-three {
 	background-color: hsl(0, 0%, 100%);
 	grid-column-start: 1;
-	color: hsl(210, 46%, 95%);
+	color: hsl(217, 19%, 35%);
 }
 .modal-four {
 	background-color: hsl(219, 29%, 14%);
@@ -70,6 +70,7 @@ body {
 	grid-row-end: 3;
 	grid-column-start: 4;
 	grid-column-end: 5;
+	color: hsl(217, 19%, 35%);	
 }
 
 .modal-img {
@@ -95,6 +96,6 @@ body {
 	font-size: 15px;
 }
 
-.modal-headline_one, .modal-headline_two {
+.modal-headline_one, .modal-headline_two, .modal-headline_four {
 	color: white;
 }
