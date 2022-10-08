@@ -64,6 +64,7 @@ body {
 	background-color: hsl(219, 29%, 14%);
 	grid-column-start: 2;
 	grid-column-end: 4;
+	color: hsl(0, 0%, 81%);
 }
 .modal-five {
 	grid-row-start: 1;
@@ -71,6 +72,7 @@ body {
 	grid-column-start: 4;
 	grid-column-end: 5;
 	color: hsl(217, 19%, 35%);	
+	font-size: 13.9px;
 }
 
 .modal-img {
