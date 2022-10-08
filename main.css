@@ -107,12 +107,27 @@ body {
 
 	body {
 		height: 2000px;
-		margin-top: 2rem;
+		
+		
 	}
 	.modal-conatiner {
 		width: 300px;
-		height: 3000px;
+		height: 1900px;
 		display: flex;
+		justify-content: space-around;
 		flex-direction: column;
+	}
+	.modal-one {
+		height: 420px;
+	}
+	.modal-two, .modal-three {
+		height: 220px;
+	}
+
+	.modal-four {
+		height: 400px;
+	}
+	.modal-five{
+		
 	}
 }
