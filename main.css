@@ -101,3 +101,18 @@ body {
 .modal-headline_one, .modal-headline_two, .modal-headline_four {
 	color: white;
 }
+
+@media (max-width: 375px) {
+
+
+	body {
+		height: 2000px;
+		margin-top: 2rem;
+	}
+	.modal-conatiner {
+		width: 300px;
+		height: 3000px;
+		display: flex;
+		flex-direction: column;
+	}
+}
